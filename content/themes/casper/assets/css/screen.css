@@ -245,17 +245,17 @@ p, ul, ol, dl {
     -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
-    margin: 0 0 1.75em 0;
+    margin: 0 0 0.75em 0;
 }
 
 ol, ul {
-    padding-left: 3rem;
+    padding-left: 2rem;
 }
 
 ol ol, ul ul,
 ul ol, ol ul {
     margin: 0 0 0.4em 0;
-    padding-left: 2em;
+    padding-left: 1.4em;
 }
 
 dl dt {
@@ -295,13 +295,13 @@ hr {
 blockquote {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 1.75em 0 1.75em 0;
+    margin: 1em 0 1em 0;
     padding: 0 0 0 1.75em;
     border-left: #D2E0EA 0.4em solid;
 }
 
 blockquote p {
-    margin: 0.8em 0;
+    margin: 0em 0;
     font-style: italic;
 }
 
@@ -726,7 +726,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .post-content a {
-    color: #054280;
+    color: #0F5397;
     text-decoration: none;
 }
 
