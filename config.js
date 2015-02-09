@@ -11,7 +11,16 @@ config = {
     // Configure your URL and mail settings here
     production: {
         url: 'http://blog.drzhi.org',
-        mail: {},
+        mail: {
+   	  transport: 'SMTP',
+    	  options: {
+            service: 'Gmail',
+            auth: {
+              user: 'blog@dr-zhi.com',
+              pass: '12345678zyl'
+            }
+          }
+        },
         database: {
             client: 'sqlite3',
             connection: {
